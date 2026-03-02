@@ -39,7 +39,7 @@ public class App
                         if (choice == 1) {
                             Book fictionbook = new FictionBook(title, author, pages, copies);
                             library.addBook(fictionbook);
-                            System.out.println("kirja lisätty kirjastoon!");
+                            System.out.println("Kirja lisätty kirjastoon!");
                             break;
                             }
                         if (choice == 2) {
