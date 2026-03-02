@@ -14,10 +14,14 @@ public class Library {
     }
 
     public void listBooks() {
+        int bookCount = 0;
         for(Book b : book) {
             b.displayInfo();
             System.out.println("Kirjan kategoria: " + b.categorize());
+            bookCount = b.copies + bookCount;
+            
         }
+        System.out.println("Kirjojen määrä kirjastossa on: " + bookCount );
 
     }
 
